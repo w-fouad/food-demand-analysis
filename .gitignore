@@ -1,0 +1,21 @@
+
+# Exclude project data as required
+/data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
